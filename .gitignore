@@ -1,5 +1,10 @@
 .DS_Store
 
+**/P[0-9][0-9][0-9]_*/temp/*
+!**/P[0-9][0-9][0-9]_*/temp/.gitkeep
+**/L[0-9][0-9][0-9]_*/temp/*
+!**/L[0-9][0-9][0-9]_*/temp/.gitkeep
+
 PRE_*/temp/*
 !PRE_*/temp/.gitkeep
 
